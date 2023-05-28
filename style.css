@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-container {
+  width: 100%;
+  background-color: #000000;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.logo img {
+  width: 170px;
+}
+
+.logo h2 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+.logo h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navabr-middle {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 80px;
+}
+
+.navabr-middle {
+  margin-left: 5rem;
+}
+
+.navabr-middle ul li {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  margin: 0 0.7rem;
+  font-weight: 500;
+  list-style: none;
+}
+
+.navabr-middle ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 8px;
+}
+
+.log-reg {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+.log-reg ul {
+  display: inline-block;
+}
+
+.log-reg ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 5px;
+}
+
+.reg-btn {
+  background-color: #fff;
+  color: black;
+  border-radius: 30px;
+  padding: 12px 32px;
+  margin-left: 0.6rem;
+}
+
+.log-reg ul li a {
+  text-decoration: none;
+  color: #412c2c;
+  font-weight: 600;
+}
+
+.content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.content h1 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 24px;
+}
+
+.content p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  opacity: 60%;
+  margin-bottom: 2.8rem;
+  font-weight: 200;
+}
+
+.content span {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  background-color: #a8ff35;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bottom {
+  margin-top: 32px;
+}
+.content-bottom img {
+  transform: scale(0.9);
+}
+
+.second-container {
+  text-align: center;
+  background-color: #a8ff35;
+}
+
+.second-container-up h1 {
+  padding-top: 140px;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 60px;
+}
+
+.second-container-down img {
+  transform: scale(0.4);
+  background-color: #fff;
+  padding: 4rem 5rem;
+  border-radius: 15px;
+}
+
+.second-container-down h1 {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+.second-container-down span {
+  opacity: 30%;
+}
+
+.second-container-down p {
+  padding-bottom: 140px;
+}
+
+.second-container-down a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  padding: 1rem 3.2rem;
+  border-radius: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.third-container {
+  background-color: black;
+  color: white;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.toggle-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a8ff35;
+}
+
+.third-container-middle p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+}
+
+.third-container-up h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 140px 132px;
+}
+
+.third-container-down {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 140px 40px;
+}
+
+/* Card elements start form here */
+
+.first-card {
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 15px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.first-card:hover {
+  transform: scale(1.1);
+}
+
+.middle-card {
+  background-color: #a8ff35;
+  color: black;
+  font-family: "Inter", sans-serif;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.first-card ul {
+  margin-top: 3rem;
+}
+
+.first-card-title span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.first-card-title p {
+  font-weight: 400;
+  padding-bottom: 0.9rem;
+}
+
+.first-card-prize {
+  margin-top: 1rem;
+}
+
+.first-card-prize span {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.first-card li {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+.middle-card li {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.first-card li:before {
+  content: "\2713";
+}
+
+.middle-card li:before {
+  content: "\2713";
+}
+
+.buy-btn {
+  margin-top: 5rem;
+}
+
+.buy-btn a {
+  text-decoration: none;
+  color: black;
+  background-color: #a8ff35;
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-weight: 800;
+  margin-top: 2.5rem;
+}
+
+.buy-btn-middle {
+  margin-top: 5rem;
+}
+
+.buy-btn-middle a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-weight: 800;
+  margin-top: 2.5rem;
+}
+
+.middle-card-btn a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-weight: 800;
+  margin-top: 2.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+.footer-logo img {
+  width: 170px;
+  cursor: pointer;
+}
+.footer-navbar ul {
+  list-style: none;
+}
+
+.footer-navbar ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+.footer-navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
